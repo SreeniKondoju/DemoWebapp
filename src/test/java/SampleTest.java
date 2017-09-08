@@ -15,7 +15,7 @@ public class SampleTest {
 	public void test() {
 		//fail("Not yet implemented");
 		driver=new FirefoxDriver();
-	   	driver.get("http://localhost:8089/DemoWebapp/");
+	   	driver.get("http://localhost:8080/DemoWebapp/");
 		driver.findElement(By.linkText("Click Here")).click();
 		//driver.navigate().refresh();
 		//driver.close();
